@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Website</title>
+</head>
+<body>
+    <header class="main-head">
+        <div class="container">
+            <h3 class="username">
+                <a href="#">Aakr<span class="offset">isht.</span></a>
+            </h3>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#work-sec">Work</a></li>
+                    <li><a href="#mess-sec">Message</a></li>
+                </ul>
+            </nav>
+            <a href="#foot"><button class="btn chat">Contact</button></a>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <section class="showcase-left">
+                <h3 class="intro">
+                    Hi.
+                    <br>
+                    I am Aakrisht,
+                    <br>
+                    <br>
+                    <span class="type-ani orange-red" id="element"></span>
+					<br>
+					<br>
+                </h3>
+                <h1>
+				I am also a chess player with around<br>2200 ELO rating on chess.com<br>I tend to use python for my projects since <br>I'm most familiar with it.<br>Some of my hobbies are playing badminton and running.<br> I also like to spend my time studying chess.</h1>
+                <p class="about">
+                    
+                </p>
+                <a href="#mess-sec"><button class="btn hireme">Send Feedback</button></a>
+                <a href="#foot"><button class="btn projects"></button></a>
+                <div class="reach">
+                    <div>
+                        
+                    </div>
+                    <div>
+                        <h3>Contact</h3>
+                        <h4>Email:</h4><p>ar1904@srmist.edu.in</p>
+                        <h4>Phone:</h4><p>+91 9631127327</p>
+
+                    </div>
+                </div>
+            </section>
+            <section class="showcase-right">
+                <img src="./profile.jpeg" alt="my-image">
+            </section>
+        </div>
+    </section>
+    <hr>
+    <section class="showcase-work" id="work-sec">
+        <div class="container">
+            <h1>Projects and Work</h1>
+            <br>
+            <div class="pro-cont">
+                <ul>
+                    <li>
+                        <a href="#">University Managment Project using Java and Python<br>GRBL based CNC Drawing Machine<br>Quantum Gate Visualizer</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section class="message-me" id="mess-sec">
+        <div class="container">
+            <form action="#">
+                <h1>Message Me</h1>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                <input class="btn send-mes" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <footer class="footer" id="foot">
+        <div class="f-left">
+            <button class="btn know-more">Know More</button>
+        </div>
+        <div class="media-links">
+            <h1>My Socials</h1>
+            <br>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><a href="https://www.instagram.com/aakrisht.gg/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></li>
+            </ul>
+            <br>
+            <br>
+            <h5>Email</h5>
+            <p>ar1904@srmist.edu.in</p>
+            <br>
+            <h5>Phone</h5>
+            <p>+91 9631127327</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Python','C++','Java','C','Tkinter','css','HTML'],
+          typeSpeed: 80,
+        });
+      </script>
+</body>
+</html>

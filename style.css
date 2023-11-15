@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-width: 800px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    height: 100%;
+}
+.btn{
+    padding:10px 25px;
+    background-color: #ffff;
+    border: 2px solid #000000a2;
+    font-weight: bolder;
+}
+
+.orange-red{
+    color: orangered;
+}
+hr{
+    margin: auto;
+    width: 90%;
+
+}
+/* Header */
+.main-head{
+    padding: 20px 0;
+    position: relative;
+}
+.main-head .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li{
+    position: relative;
+    margin: 0 10%;
+    font-size: 17px;
+    font-weight: 500;
+}
+.navbar ul li a:hover,.showcase-left .projects:hover{
+    border-bottom: 1.5px solid #000;
+    color:#000000bd;
+}
+.main-head::after{
+    position: absolute;
+    content: "";
+    margin-left: 145px;
+    margin-top: 15px;
+    width: 85%;
+    background-color: #f4f4f4d1;
+    height: 2px;
+
+}
+.username{
+    font-weight: 600;
+    font-size: 25px;
+}
+.chat:hover{
+    transition: all 0.2s ease-in-out;
+    background-color: #000;
+    color: #ffff;
+    flex-shrink: 2;
+}
+.offset{
+    color:red;
+    font-size: 30px;
+}
+
+/* Show Case */
+.showcase{
+    margin-top: 100px;
+}
+.showcase .container{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+}
+.showcase-left{
+    position: relative;
+    padding: 40px;
+    
+    
+}
+.showcase-left .intro{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 20px 0;
+}
+.showcase-left .about{
+    line-height: 30px;
+    margin-bottom: 150px;
+
+    
+}
+.showcase-left .hireme{
+    background-color: orangered;
+    border: none;
+    color:#ffff;
+    padding: 10px 30px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.showcase-left .hireme:hover{
+    background-color: rgba(255, 68, 0, 0.756);
+}
+.showcase-left .projects{
+    background-color: #ffff;
+    border: none;
+    color:#000;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.showcase-left .reach div{
+    margin:10px 0;
+
+}
+.showcase-left .reach{
+    margin-top: 50px;
+}
+.showcase-right{
+    overflow: hidden;
+    
+}
+.showcase-right img{
+    width: 30rem;
+    height: 40rem;
+}
+
+.showcase-work{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.showcase-work .container{
+    text-align: center;
+}
+.showcase-work h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.pro-cont ul li{
+    margin: 10px 0;
+    font-size: 20px;
+    
+}
+.pro-cont ul li img{
+    width: 1300px;
+}
+.pro-cont ul li,.pro-cont ul li a:hover{
+    color:#00000082;
+}
+
+/* message me */
+
+.message-me .container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.message-me .container form h1{
+    margin: 5px 10px;
+    
+}
+.message-me .container form input{
+    margin: 5px 10px;
+    width: 70%;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.message-me .container form textarea{
+    margin: 5px 10px;
+    width: 70%;
+    height: 300px;
+    padding: 10px;
+    background-color: #ffffffd7;
+    border-radius: 10px;
+}
+.message-me .container .send-mes{
+    background-color: black;
+    color: #ffff;
+    margin: 20px 0;
+    width: 30%;
+    height: 45px;
+}
+.message-me .container .send-mes:hover{
+    background-color: #ffff;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* footer */
+.footer{
+    color: #ffff;
+    background-color:#2E2E2E;
+    width: 100%;
+   
+    padding:50px 100px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer .f-left{
+    font-size: 10px;
+    font-weight: 200;
+    margin-right: 100px;
+}
+.f-left .know-more{
+    margin-top: 20px;
+    background-color: #FDB750;
+    font-weight: bold;
+}
+.f-left .know-more:hover{
+    background-color: #fdb850d5;
+}
+.f-right{
+    font-size: 20px;
+    line-height: 50px;
+}
+.f-right {
+    margin-left: 10px;
+    
+    width: 40%;
+}
+.f-right ul li span{
+    font-weight: bolder;
+}
+.media-links ul li{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.media-links ul {
+    display: flex;
+    
+}
+.media-links ul li:hover{
+    cursor: pointer;
+}
+
+/* Media Querries */
+
+@media(max-width:800px){
+    .showcase .container{
+        flex-direction: column;
+    }
+    .f-right ul li{
+        display: block;
+    }
+    
+}
+
+
